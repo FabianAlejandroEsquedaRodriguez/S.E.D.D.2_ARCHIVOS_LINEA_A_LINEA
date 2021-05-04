@@ -6,7 +6,7 @@ Archivo = open("Letra_de_mi_cancion_favorita.txt", 'r')#Abre el archivo en modo 
 
 #Paso 2 -> Procesar el archivo
 for linea in Archivo:
-    print(linea)
+    print(linea, end="")
 
 #Paso 3 -> Cerrar el archivo
 Archivo.close()
